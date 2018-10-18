@@ -3,7 +3,7 @@
     width: 100%;
     margin: 0 0 30px;
     overflow: auto;
-    color: blue;
+    color:white;
     background: gray;
     border-bottom: 2px solid black;
 }
@@ -22,11 +22,11 @@ nav a{
     padding-left: 15px;
     margin-left: 15px;
     line-height: 10px;
-    color: red;
-    border-left: 1px solid orange;
+    color: white;
+    border-left: 1px solid gray;
     text-decoration: none;
 }
-nav a: :first-child{
+nav a:first-child{
     border-left: 0 none;
 }
 #main-container{
@@ -44,5 +44,14 @@ nav a: :first-child{
 .auth-img{
     float: left;
     width: 200px;
-    
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+social{
+    width:62px;
+    height:62px;
+    margin-top: 8px;
+    margin-right: 5px;
+
 }
